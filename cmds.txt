@@ -1,0 +1,10 @@
+# Linux Command    | MSWin Bash | XML tag     |Purpose
+#------------------+------------+-------------+----------
+uname -a           |uname -a    |uname        |O.S. 버전 기타
+cat /proc/cpuinfo  |systeminfo  |sysinfo      |하드웨어 정보
+ifconfig           |ipconfig    |nwinterface  |네트워크 인터페이스 정보
+route              |route print |nwroute      |라우팅 테이블
+arp -a             |arp -a      |nwarp        |ARP 테이블
+netstat -a         |netstat -a  |netstat      |네트워크 커넥션
+mount              |net share   |diskinfo     |디스크 정보
+ps -e              |tasklist    |processes    |실행 프로세스
